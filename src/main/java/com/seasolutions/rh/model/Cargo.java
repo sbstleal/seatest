@@ -71,5 +71,11 @@ public class Cargo {
 	public void setTrabalhador(List<Trabalhador> trabalhador) {
 		this.trabalhador = trabalhador;
 	}
+	
+    public Cargo(String nome, BigDecimal salario, Setor setor) {
+        this.nome = nome;
+        this.salario = salario;
+        this.setor = setor;
+    }
 
 }
